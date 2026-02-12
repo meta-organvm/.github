@@ -32,7 +32,7 @@ The meta-organvm organization is the umbrella layer: the vantage point from whic
 
 | # | Greek Name | Domain | Organization | Repos | Flagship |
 |:-:|:-----------|:-------|:-------------|------:|:---------|
-| I | **Theoria** (θεωρία) | Theory | [organvm-i-theoria](https://github.com/organvm-i-theoria) | 17 | [recursive-engine](https://github.com/organvm-i-theoria/recursive-engine) |
+| I | **Theoria** (θεωρία) | Theory | [organvm-i-theoria](https://github.com/organvm-i-theoria) | 17 | [recursive-engine--generative-entity](https://github.com/organvm-i-theoria/recursive-engine--generative-entity) |
 | II | **Poiesis** (ποίησις) | Art | [organvm-ii-poiesis](https://github.com/organvm-ii-poiesis) | 15 | [metasystem-master](https://github.com/organvm-ii-poiesis/metasystem-master) |
 | III | **Ergon** (ἔργον) | Commerce | [organvm-iii-ergon](https://github.com/organvm-iii-ergon) | 20 | [public-record-data-scrapper](https://github.com/organvm-iii-ergon/public-record-data-scrapper) |
 | IV | **Taxis** (τάξις) | Orchestration | [organvm-iv-taxis](https://github.com/organvm-iv-taxis) | 5 | [agentic-titan](https://github.com/organvm-iv-taxis/agentic-titan) |
@@ -101,7 +101,7 @@ The **Silver Sprint** is complete. All seven organ organizations and the meta um
 
 If you are exploring this system for the first time, start here:
 
-- **[recursive-engine](https://github.com/organvm-i-theoria/recursive-engine)** — The theoretical foundation. A recursive epistemological framework that demonstrates how self-referential systems can generate novel structure. Start here if you care about ideas.
+- **[recursive-engine--generative-entity](https://github.com/organvm-i-theoria/recursive-engine--generative-entity)** — The theoretical foundation. A recursive epistemological framework that demonstrates how self-referential systems can generate novel structure. Start here if you care about ideas.
 
 - **[metasystem-master](https://github.com/organvm-ii-poiesis/metasystem-master)** — The artistic expression. A metasystemic creative engine spanning generative music, interactive theatre, and experiential design. Start here if you care about making things.
 
