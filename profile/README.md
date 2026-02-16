@@ -2,6 +2,8 @@
 
 # meta-organvm
 
+_System-wide registry, governance rules, and cross-organ coordination_
+
 > *μετά (meta) — beyond, about, self-referential*
 
 **Eight organs. One system. Creative infrastructure at institutional scale.**
