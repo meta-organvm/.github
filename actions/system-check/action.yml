@@ -1,0 +1,54 @@
+name: 'ORGANVM System Check'
+description: >
+  Validates a repository against ORGANVM system contracts: seed.yaml
+  validity, dependency rules, schema conformance, and no back-edges.
+  Add to any repo's CI to get build-time system awareness.
+
+inputs:
+  checks:
+    description: >
+      Comma-separated list of checks to run.
+      Available: seed, deps, schema, back-edges, all.
+    required: false
+    default: 'all'
+  registry-path:
+    description: 'Path to registry-v2.json (auto-resolved if omitted)'
+    required: false
+  fail-on-warning:
+    description: 'Treat warnings as errors (default: false)'
+    required: false
+    default: 'false'
+
+outputs:
+  result:
+    description: 'JSON object with check results'
+    value: ${{ steps.run-checks.outputs.result }}
+  passed:
+    description: 'Boolean — true if all checks passed'
+    value: ${{ steps.run-checks.outputs.passed }}
+
+runs:
+  using: 'composite'
+  steps:
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.12'
+
+    - name: Install organvm-engine
+      shell: bash
+      run: |
+        pip install -q organvm-engine 2>/dev/null || \
+        pip install -q "git+https://github.com/meta-organvm/organvm-engine.git" 2>/dev/null || \
+        echo "::warning::Could not install organvm-engine — some checks may be limited"
+
+    - name: Run system checks
+      id: run-checks
+      shell: bash
+      env:
+        CHECKS: ${{ inputs.checks }}
+        REGISTRY_PATH: ${{ inputs.registry-path }}
+        FAIL_ON_WARNING: ${{ inputs.fail-on-warning }}
+        REPO_ROOT: ${{ github.workspace }}
+      run: |
+        bash ${{ github.action_path }}/scripts/run-checks.sh
