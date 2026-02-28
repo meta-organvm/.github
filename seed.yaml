@@ -12,7 +12,7 @@ org: meta-organvm
 metadata:
   implementation_status: PRODUCTION
   tier: infrastructure
-  promotion_status: LOCAL
+  promotion_status: CANDIDATE
   last_validated: "2026-02-10"
   generated: "2026-02-12"
   sprint: "AUTONOMY"
