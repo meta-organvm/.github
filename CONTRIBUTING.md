@@ -42,6 +42,7 @@ Changes to meta-organvm affect all 7 organ organizations. Proposals require broa
 - Python: PEP 8, type hints, f-strings
 - Tests required for all new functionality
 - Commit messages: imperative mood, <72 chars title
+- README structure and depth must follow [README standards](README_STANDARDS.md)
 
 ## Getting Help
 
