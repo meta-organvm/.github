@@ -42,10 +42,22 @@ Changes to meta-organvm affect all 7 organ organizations. Proposals require broa
 - Python: PEP 8, type hints, f-strings
 - Tests required for all new functionality
 - Commit messages: imperative mood, <72 chars title
+- README structure and depth must follow [README standards](README_STANDARDS.md)
+
+## First-Time Contributors
+
+Look for issues labeled **`good first issue`** across our repositories:
+
+- [organvm-engine](https://github.com/meta-organvm/organvm-engine/labels/good%20first%20issue) — CLI enhancements, type hints, shell completions
+- [organvm-corpvs-testamentvm](https://github.com/meta-organvm/organvm-corpvs-testamentvm/labels/good%20first%20issue) — documentation, diagrams, concordance
+- [schema-definitions](https://github.com/meta-organvm/schema-definitions/labels/good%20first%20issue) — schema examples, validation improvements
+- [system-dashboard](https://github.com/meta-organvm/system-dashboard/labels/good%20first%20issue) — UI improvements, new routes
+- [organvm-ontologia](https://github.com/meta-organvm/organvm-ontologia/labels/good%20first%20issue) — entity resolution, sensing layer
 
 ## Getting Help
 
-- Open an Issue for questions
+- **[GitHub Discussions](https://github.com/meta-organvm/organvm-corpvs-testamentvm/discussions)** — ask questions, propose ideas, share feedback
+- **Issues** — report bugs or request features on the relevant repository
 - Check existing documentation in each repo's README
 
 ---
