@@ -16,7 +16,7 @@ _System-wide registry, governance rules, and cross-organ coordination_
 [![Organ VI — Koinonia](https://img.shields.io/badge/VI-Koinonia-20B2AA)](https://github.com/organvm-vi-koinonia)
 [![Organ VII — Kerygma](https://img.shields.io/badge/VII-Kerygma-FF1493)](https://github.com/organvm-vii-kerygma)
 
-**81 repositories &bull; ~320,000 words of documentation &bull; 8 GitHub organizations &bull; 16 published essays**
+**<!-- v:total_repos -->113<!-- /v --> repositories &bull; <!-- v:total_words_short -->404K+<!-- /v --> words of documentation &bull; <!-- v:total_organs -->8<!-- /v --> GitHub organizations &bull; <!-- v:published_essays -->16<!-- /v --> published essays**
 
 **[Read the essays →](https://organvm-v-logos.github.io/public-process/)**
 
@@ -89,8 +89,8 @@ No back-edges exist in the dependency graph. Commerce cannot reach back into Art
 
 | Metric | Value |
 |--------|------:|
-| Total repositories | 81 |
-| Total documentation | ~320,000 words |
+| Total repositories | <!-- v:total_repos -->113<!-- /v --> |
+| Total documentation | <!-- v:total_words_short -->404K+<!-- /v --> words |
 | Organ organizations live | 8 of 8 |
 | Profile READMEs deployed | 8 of 8 |
 | Published essays | 16 |
@@ -128,13 +128,13 @@ If you are exploring this system for the first time, start here:
 
 This system exists at the intersection of several disciplines that rarely meet:
 
-- **Systems architecture** — Eight organizations, 81 repositories, explicit dependency graphs, promotion state machines, and governance automation. The infrastructure demonstrates fluency with distributed systems thinking applied to creative production.
+- **Systems architecture** — Eight organizations, <!-- v:total_repos -->113<!-- /v --> repositories, explicit dependency graphs, promotion state machines, and governance automation. The infrastructure demonstrates fluency with distributed systems thinking applied to creative production.
 
 - **Creative practice** — Generative art, interactive theatre, recursive epistemology, and metasystemic design. The work is not decorative; it is structurally integrated with the theoretical and commercial layers.
 
 - **Technical execution** — Data pipelines, browser extensions, SaaS platforms, agentic orchestration, and CI/CD automation. The commercial organ alone contains 22 repositories spanning multiple technology stacks.
 
-- **Documentation as craft** — Over 320,000 words of portfolio-grade documentation and 16 published essays, written to be read by humans, not just parsed by machines. Every README is a demonstration of communicative precision.
+- **Documentation as craft** — Over <!-- v:total_words_short -->404K+<!-- /v --> words of portfolio-grade documentation and <!-- v:published_essays -->16<!-- /v --> published essays, written to be read by humans, not just parsed by machines. Every README is a demonstration of communicative precision.
 
 The organvm system is a proof of concept for a specific thesis: that creative work, theoretical inquiry, and commercial execution can be coordinated within a single coherent architecture — and that the architecture itself can be made legible, navigable, and beautiful.
 
@@ -153,3 +153,15 @@ Built by [@4444j99](https://github.com/4444J99).
 *CONSOLIDATION-II Sprint 2026-02-12*
 
 </div>
+
+<!-- PORTFOLIO-HUB-START -->
+---
+
+<div align="center">
+
+**Explore the System**
+
+[Portfolio](https://4444j99.github.io/portfolio/) · [System Directory](https://4444j99.github.io/portfolio/directory/) · [49 Essays](https://organvm-v-logos.github.io/public-process/) · [Knowledge Base](https://organvm-i-theoria.github.io/my-knowledge-base/) · [Consult](https://4444j99.github.io/portfolio/consult/)
+
+</div>
+<!-- PORTFOLIO-HUB-END -->

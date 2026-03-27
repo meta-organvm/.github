@@ -1,18 +1,20 @@
 ## Summary
 
-Brief description of the changes.
+<!-- What does this PR do? Keep it brief — 1-3 sentences. -->
 
-## Type of Change
+## Changes
 
-- [ ] Bug fix
-- [ ] New feature
-- [ ] Documentation update
-- [ ] Refactoring
-- [ ] CI/CD improvement
+-
+
+## Testing
+
+- [ ] Existing tests pass
+- [ ] New tests added for new functionality (if applicable)
+- [ ] Manual verification performed
 
 ## Checklist
 
-- [ ] My code follows the project's style guidelines
-- [ ] I have performed a self-review
-- [ ] I have added tests that prove my fix/feature works
-- [ ] New and existing tests pass locally
+- [ ] Follows existing code style and patterns
+- [ ] No secrets, credentials, or personal data included
+- [ ] seed.yaml updated (if produces/consumes edges changed)
+- [ ] CLAUDE.md changes auto-generated (run `organvm context sync` if needed)
