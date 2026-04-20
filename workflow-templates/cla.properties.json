@@ -1,0 +1,6 @@
+{
+  "name": "CLA Assistant",
+  "description": "Contributor License Agreement check for ORGANVM repos",
+  "iconName": "shield-check",
+  "categories": ["Automation"]
+}
