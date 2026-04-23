@@ -1,5 +1,8 @@
 name: Dispatch Receiver
 
+permissions:
+  contents: read
+
 # Receives cross-org events from orchestration-start-here
 on:
   repository_dispatch:
