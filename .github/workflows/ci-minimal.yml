@@ -15,6 +15,14 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install CI dependencies
+        run: python3 -m pip install --disable-pip-version-check PyYAML
+
       - name: Check README exists
         run: |
           if [ -f README.md ]; then
@@ -29,7 +37,11 @@ jobs:
       - name: Validate seed.yaml
         run: |
           if [ -f seed.yaml ]; then
-            python3 -c "import yaml; yaml.safe_load(open('seed.yaml'))" && echo "seed.yaml is valid YAML" || { echo "::error::seed.yaml is invalid YAML"; exit 1; }
+            if ! python3 -c "import yaml; yaml.safe_load(open('seed.yaml'))"; then
+              echo "::error::seed.yaml is invalid YAML"
+              exit 1
+            fi
+            echo "seed.yaml is valid YAML"
           else
             echo "No seed.yaml (optional for this repo type)"
           fi
